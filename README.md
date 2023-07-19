@@ -72,9 +72,11 @@ The "Laptop Sale Predictor" project is a web application that predicts laptop pr
 
 - Learning Opportunity: The Laptop Sale Predictor project serves as a learning resource for understanding machine learning, data analysis, and web application development using tools like Streamlit. Users can explore the codebase, experiment with different models, and gain insights into the underlying techniques used in price prediction.
 
+# Demo
+https://github.com/Amanlamba002/laptop-sale-predictor/assets/76461226/95f05f03-b919-4e73-837f-3aaee47b751e
 
-
-
+# Download from here
+https://laptop-sale-predictor-cjp6f9qd6h.streamlit.app/
 
 ## Authors
 
