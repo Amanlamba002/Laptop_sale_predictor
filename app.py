@@ -15,7 +15,7 @@ if nav=="Home":
     gr=st.selectbox("Do you want bar of price and company",['Yes','No'])
     if gr=="Yes":
         st.bar_chart(data=df,x='Company',y="Price")
-        st.snow()
+        # st.snow()
     else:
         st.subheader("Thank you ")
         st.balloons()
@@ -25,7 +25,7 @@ if nav=="Home":
 
 if nav=="Predict":
     # import the model
-    pipe = pickle.load(open('pipe1.pkl','rb'))
+    pipe = pickle.load(open('pipe3.pkl','rb'))
     df = pickle.load(open('df1.pkl','rb'))
 
     st.title("Laptop Sale Predictor")
