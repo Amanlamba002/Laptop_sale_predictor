@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
+
 df = pickle.load(open('df1.pkl','rb'))
 nav=st.sidebar.radio("Navigation",["Home","Predict"])
 
