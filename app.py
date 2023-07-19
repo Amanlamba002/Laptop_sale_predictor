@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-df = pickle.load(open('df.pkl','rb'))
+df = pickle.load(open('df1.pkl','rb'))
 nav=st.sidebar.radio("Navigation",["Home","Predict"])
 
 if nav=="Home":
@@ -24,8 +24,8 @@ if nav=="Home":
 
 if nav=="Predict":
     # import the model
-    pipe = pickle.load(open('pipe.pkl','rb'))
-    df = pickle.load(open('df.pkl','rb'))
+    pipe = pickle.load(open('pipe1.pkl','rb'))
+    df = pickle.load(open('df1.pkl','rb'))
 
     st.title("Laptop Sale Predictor")
 
@@ -85,4 +85,3 @@ if nav=="Predict":
 
         query = query.reshape(1,12)
         st.title("The predicted price is " + str(int(np.exp(pipe.predict(query)[0]))))
-        
