@@ -1,0 +1,21 @@
+{
+    "name": "laptop-sale-predictor",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "build": "echo \"Running build script...\" && npm install",
+      "test": "echo \"No test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:Amanlamba002/laptop-sale-predictor.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Amanlamba002/laptop-sale-predictor/issues"
+    },
+    "homepage": "https://github.com/Amanlamba002/laptop-sale-predictor#readme"
+  }
+  
