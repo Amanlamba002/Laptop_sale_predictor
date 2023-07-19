@@ -1,26 +1,20 @@
 {
     "name": "laptop-sale-predictor",
     "version": "1.0.0",
-    "description": "Laptop Sale Predictor",
+    "description": "",
     "scripts": {
-      "build": "pip install -r requirements.txt",
+      "build": "echo \"No build specified\" && exit 1",
       "test": "echo \"No test specified\" && exit 1",
-      "start": "streamlit run app.py"
+      "start": "node index.js"
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/Amanlamba002/laptop-sale-predictor.git"
+      "url": "git@github.com:Amanlamba002/laptop-sale-predictor.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
       "url": "https://github.com/Amanlamba002/laptop-sale-predictor/issues"
     },
-    "homepage": "https://github.com/Amanlamba002/laptop-sale-predictor#readme",
-    "dependencies": {
-      "streamlit": "1.24.1",
-      
-      "scikit-learn": "1.2.1"
-    }
+    "homepage": "https://github.com/Amanlamba002/laptop-sale-predictor#readme"
   }
-  
