@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-from xgboost import XGBRegressor
+# from xgboost import XGBRegressor
 
 df = pickle.load(open('df1.pkl','rb'))
 nav=st.sidebar.radio("Navigation",["Home","Predict"])
