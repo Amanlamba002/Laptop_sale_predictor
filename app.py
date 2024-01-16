@@ -23,12 +23,18 @@ if nav=="Home":
 
 
 
-if nav=="Predict":
-    # import the model
-    pipe = pickle.load(open('pipe3.pkl','rb'))
-    df = pickle.load(open('df1.pkl','rb'))
+if nav == "Predict":
+    try:
+        # Try to load the pickled model
+        pipe = pickle.load(open('pipe3.pkl', 'rb'))
+    except Exception as e:
+        st.error(f"Error loading the model: {e}")
+        st.stop()
+
+    df = pickle.load(open('df1.pkl', 'rb'))
 
     st.title("Laptop Sale Predictor")
+
 
     # brand
     company = st.selectbox('Brand',df['Company'].unique())
