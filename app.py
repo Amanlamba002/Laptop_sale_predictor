@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+print("Streamlit version:", st.__version__)
 # from xgboost import XGBRegressor
 
 df = pickle.load(open('df1.pkl','rb'))
