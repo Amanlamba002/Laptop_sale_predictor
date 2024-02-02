@@ -1,7 +1,11 @@
 import streamlit as st
 import pickle
 import numpy as np
+<<<<<<< HEAD
 print("Streamlit version:", st.__version__)
+=======
+
+>>>>>>> 55de51b8525c67dc278828ffe67594f260315588
 # from xgboost import XGBRegressor
 
 df = pickle.load(open('df1.pkl','rb'))
@@ -35,6 +39,7 @@ if nav == "Predict":
     df = pickle.load(open('df1.pkl', 'rb'))
 
     st.title("Laptop Sale Predictor")
+
 
     # brand
     company = st.selectbox('Brand',df['Company'].unique())
